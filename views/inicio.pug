@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block slider
+	div.slider
+		h1 Rio de Janeiro
+		em explora
+
+block contenido
+	menu.container.mt-5
+		h2.text-center.mb-5 Sobre nosotros
+		div.row.mb-5
+			div.col-md-6
+				p En Agencia de viajes, somos más que una simple agencia de viajes; somos tus aliados en la exploración del mundo. Con más de 1 año de experiencia, nos dedicamos a crear experiencias únicas y memorables para cada uno de nuestros clientes. 
+				p Nuestro equipo de expertos en viajes se esfuerza por ofrecerte los mejores destinos, las mejores ofertas y un servicio personalizado que se adapta a tus necesidades y deseos. Nuestra Misión es ayudarte a descubrir el mundo con confianza y comodidad, ofreciéndote asesoramiento experto, soporte continuo y una atención al detalle que garantiza que cada viaje sea inolvidable.
+			div.col-md-6
+				img(src="/img/inicio_nosotros.jpg", class="img-fluid", alt="Imagen sobre nosotros", width="540", height="355")
+		
+		include ./layout/bloque_viajes
+
+	div.descuento
+		div.container
+			div.row
+				div.col-md-6
+					div.contenido
+						h3 5% de descuento
+						p.titulo Viaje a Canada
+						p.fecha 17 de Julio de 2024 - 30 de Julio de 2024
+						p.precio $1'500.000 COP
+
+	div.container
+		h2.mt-5.text-center Nuestros clientes
+		include ./layout/bloque_testimoniales

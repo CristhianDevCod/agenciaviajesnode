@@ -1,0 +1,44 @@
+extends ./layout/index
+
+block contenido
+	menu.container.mt-5
+		div.row
+			div.col-md-5
+				img(class="img-fluid" src="img/nosotros.jpg" width="430" height="550" alt="Imagen sobre nosotros, torre eiffel")
+			div.col-md-7
+				h1 #{pagina}
+				blockquote Sobre Nosotros en Agencia de viajes, somos más que una simple agencia de viajes; somos tus aliados en la exploración del mundo. Con más de 1 año de experiencia, nos dedicamos a crear experiencias únicas y memorables para cada uno de nuestros clientes. Nuestro equipo de expertos en viajes se esfuerza por ofrecerte los mejores destinos, las mejores ofertas y un servicio personalizado que se adapta a tus necesidades y deseos. 
+				p Nuestra Misión es ayudarte a descubrir el mundo con confianza y comodidad, ofreciéndote asesoramiento experto, soporte continuo y una atención al detalle que garantiza que cada viaje sea inolvidable. 
+				h2 Nuestros Valores:
+				ul 
+					li
+						strong Calidad
+						| : Nos comprometemos a ofrecer solo lo mejor en servicios y productos turísticos.
+					li 
+						strong Confianza
+						| : Construimos relaciones sólidas basadas en la transparencia y la integridad.
+					li 
+						strong Innovación
+						| : Siempre buscamos nuevas formas de mejorar y sorprenderte con experiencias únicas.
+					li 
+						strong Satisfacción
+						| : Tu felicidad es nuestra mayor recompensa. Trabajamos incansablemente para superar tus expectativas.
+		p Únete a nuestra comunidad de viajeros y déjate inspirar por las historias y consejos de quienes ya han explorado el mundo con nosotros. La Agencia de viajes, cada viaje es una nueva aventura esperando ser descubierta.
+
+	div.listado-iconos
+		div.container.mt-5.py-5.text-center
+			div.row
+				div.col-md-4
+					img(class="img-fluid mb-4" src="img/icono_seguridad.svg" width="85" height="100" alt="Imagen sobre seguridad")
+					h3.mb-4 Seguridad
+					p Nos aseguramos de que cada destino cumpla con los más altos estándares de seguridad y te ofrecemos asistencia 24/7.
+				
+				div.col-md-4
+					img(class="img-fluid mb-4" src="img/icono_destinos.svg" width="85" height="100" alt="Imagen sobre destinos")
+					h3.mb-4 Destinos
+					p Desde playas paradisíacas hasta ciudades históricas, te ayudamos a encontrar el destino perfecto para tu próxima aventura.
+
+				div.col-md-4
+					img(class="img-fluid mb-4" src="img/icono_precios.svg" width="85" height="100" alt="Imagen sobre precios")
+					h3.mb-4 Precios
+					p Disfruta de tarifas competitivas y promociones especiales que se adaptan a tu presupuesto sin sacrificar calidad.
