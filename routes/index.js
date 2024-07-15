@@ -6,7 +6,7 @@ import {
 	paginaViajes, 
 	paginaTestimoniales, 
 	paginaDetalleViaje 
-} from '../controllers/paginascontroller.js';
+} from '../controllers/paginasController.js';
 import { 
 	guardarTestimonial 
 } from '../controllers/testimonialController.js';
